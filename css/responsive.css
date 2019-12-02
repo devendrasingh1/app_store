@@ -1,0 +1,305 @@
+
+@media(max-width: 1199px){
+	.recommend_col {
+	    width: 25%;
+	}
+	.dahsboard_form .form_group .form_label {
+	    width: 100%;
+	}
+	.dahsboard_form .form_group .input_group {
+	  padding-left: 0;
+	}
+	.all_app_col{
+	    width:230px;
+	}
+}
+@media(min-width: 992px){
+	.hide_in_desktop{
+		display: none;
+	}
+	.app_nav_toggle {
+	    display: none;
+	}
+	.app_navigation > ul > li > ul:before {
+	    position: absolute;
+	    content: "";
+	    top: -10px;
+	    left: 22px;
+	    border-right: 10px solid transparent;
+	    border-left: 10px solid transparent;
+	    border-bottom: 10px solid #fff;
+	}
+	.app_navigation > ul > li > ul{
+		box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.26);
+		-webkit-box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.26);
+		-moz-box-shadow: 0px 1px 14px rgba(0, 0, 0, 0.26);
+		transition: all ease-in 0.25s;
+		-webkit-transition: all ease-in 0.25s;
+		-moz-transition: all ease-in 0.25s;
+	}
+}
+@media(max-width: 1100px){
+	.header_right .menus{
+	    position: initial; 
+	}
+	.dropdown_navs {
+	   right: 0;
+	   left: auto;
+	}
+}
+@media(max-width: 991px){
+	.hide_in_mobile{
+		display: none;
+	}
+	.recommend_col {
+	    width: 33.33%;
+	}
+	/*== app category css ==*/
+	.app_navigation > ul > li >a .caret_icon {
+	   display: none;
+	}
+	.app_category {
+	    float: right;
+	    width: auto;
+	}
+	.category_dropdown {
+	    right: 0;
+	    left: auto;
+	}
+	/*== app category css ==*/
+	/*== app nav css ==*/
+	.app_nav_toggle {
+	    display: inline-block;
+	    margin: 22px 0;
+	}
+	.app_navigation {
+	    width: 100%;
+	    position: absolute;
+	    top: 100%;
+	    left: 0;
+	    z-index: 11;
+	    background: #f85a40;
+	    display: none;
+	    text-align: left;
+	}
+	.app_navigation:before {
+	    position: absolute;
+	    content: "";
+	    top: -15px;
+	    left: 15px;
+	    border-left: 12px solid transparent;
+	    border-right: 12px solid transparent;
+	    border-bottom: 15px solid #f85a40;
+	}
+	.app_navigation >ul >li {
+	    padding: 14px 25px;
+	    width: 100%;
+	}
+	.app_navigation >ul>li>a {
+		font-size: 18px;
+	}
+	.app_navigation >ul>li>a span {
+	    font-size: 22px;
+	}
+	.app_navigation>ul>li>a:hover {
+	    color: #0b2637;
+	}
+	/*== app nav css ==*/
+	/*=== submenu css ===*/
+	.app_navigation > ul > li > ul {
+	    display: none;
+	    visibility: visible;
+	    opacity: 1;
+	    position: relative;
+	    margin-top: 14px;
+	}
+	.app_navigation > ul > li > ul >li > a:hover {
+	    color: #f85a40;
+	    background: transparent;
+	}
+	/*=== submenu css ===*/
+	.sidebar_toggle {
+	    display: inline-block;
+	    color: #fff;
+	    background: #f85a40;
+	    padding: 4px 10px;
+	    font-size: 20px;
+	    cursor: pointer;
+	}
+	.dashboard_sidbar{
+		display: none;
+	}
+	.dahsboard_content{
+		margin-top: 20px;
+	}
+}
+@media(max-width: 767px){
+	.app_sec_heading h2 {
+	    font-size: 26px;
+	}
+	.app_sec_heading p {
+    	font-size: 15px;
+	}
+	.app_sec_heading .right_sd {
+	    float: left;
+	    width: 100%;
+	}
+	.app_sec_heading .more_btn {
+	    margin-top: 25px;
+	}
+	.game_desc h3 {
+	    font-size: 18px;
+	}
+	.recommend_col {
+	    width: 50%;
+	}
+	.recommend_apps{
+		text-align: center;
+		padding: 20px 15px;
+	}
+	.app_img_wrap .rating {
+	    width: 100%;
+	    float: none;
+	    display: inline-block;
+	    margin-top: 13px;
+	}
+	.app_title h5 {
+	    margin-top: 8px;
+	}
+}
+@media(max-width: 767px){
+	.add_wallet_money{
+		text-align: center;
+	}
+	.add_wallet_money .wallet_icon_img {
+	    float: none;
+	    display: inline-block;
+	}
+	.add_wallet_money .wallet_form {
+	    padding-left: 0;
+	    width: 100%;
+	    display: inline-block;
+	    padding-top: 18px;
+	}
+	.home_slider .owl-dots {
+	    bottom: 7px;
+	}
+	.all_app_col {
+	    width: 204px;
+	    padding: 0 5px;
+	}
+	.all_app_row .app_image {
+	    width: 110px;
+	}
+	.all_app_row .app_detail {
+	    padding-left: 130px;
+	}
+	.bottom_install {
+	    text-align: left;
+	}
+}
+@media(max-width: 500px){
+	.game_col {
+	    width: 100%;
+	    max-width: 100%;
+	    flex: 0 0 100%;
+	    -ms-flex: 0 0 100%;
+	    text-align: center;
+	}
+	.game_box{
+		display: inline-block;
+	}
+}
+@media(max-width: 480px){
+	.header_right .user_img:after{
+		display: none;
+	}
+	.header_right .user_img {
+	    width: 45px;
+	    height: 45px;
+	    margin-right: 5px;
+	}
+	.nav_toggle {
+	    margin-right: 5px;
+	    width: 23px;
+	    height: 20px;
+	}
+	.amt_box {
+	    float: left;
+	    width: 50%;
+	    padding: 0 5px;
+	}
+	.amt_radio img {
+	    max-width: 70px;
+	}
+	.amt_radio .amt_1 {
+	    margin: 7px 0 12px;
+	}
+	.amt_radio .amt_2 {
+	    font-size: 18px;
+	}
+	.success_wrapper_inr .thankyou_text {
+	    font-size: 65px;
+	    padding: 0;
+	}
+	.card_form .form_group.col_50 {
+	    width: 100%;
+	}
+	.app_title h5{
+	    font-size: 15px;
+	}
+	.recommend_col {
+	    padding: 0 5px;
+	}
+	.app_boxes .app_bx_img {
+	    width: 80px;
+	}
+	.app_boxes .app_bx_text {
+	    padding-left: 100px;
+	}
+	.app_bx_text h3{
+	    margin-top: 6px;
+	}
+	.all_app_row .app_image {
+	    width: 80px;
+	}
+	.all_app_row .app_detail {
+	    padding-left: 100px;
+	}
+}
+@media(max-width: 425px){
+	.meta_inner {
+	    width: 100%;
+	}
+	.app_boxes .review_meta .voter_txt {
+	    float: right;
+	}
+	.app_boxes .install_btn{
+		margin-top: 10px;
+	}
+	.all_app_row .app_detail {
+	    padding-left: 0;
+	    display: inline-block;
+	    width: 100%;
+	    padding-top: 10px;
+	}
+}
+@media(max-width: 425px){
+	.dash_text_tp .txt_right{
+		width: 100%;
+	}
+	.all_app_col{
+	    width: 100%;
+	}
+}
+@media(max-width: 400px){
+	.recommend_col {
+	    width: 100%;
+	    text-align: center;
+	}
+	.success_wrapper_inr .thankyou_text {
+	    font-size: 60px;
+	    line-height: 60px;
+	    display: none;
+	}
+}

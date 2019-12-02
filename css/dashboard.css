@@ -1,0 +1,412 @@
+/*======= App upload css End ==========*/
+.dashboard_wrapper {
+    background: #f0f0f0;
+    padding: 30px 0 40px;
+}
+.dahsboard_content {
+    padding: 0px 0 20px;
+    display: inline-block;
+    width: 100%;
+}
+.dahsboard_content_inr {
+    background: #ffffff;
+    padding: 20px;
+}
+.dashboard_heading {
+    display: inline-block;
+    width: 100%;
+    background: #0b2636;
+}
+.dashboard_heading h4 {
+    display: inline-block;
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px 15px;
+}
+.dahsboard_form {
+    display: inline-block;
+    width: 100%;
+    background: #ffffff;
+}
+.dahsboard_form .form_group{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.dahsboard_form .form_group .form_label {
+    float: left;
+    width: 200px;
+    font-size: 15px;
+    color: #000;
+    text-transform: capitalize;
+}
+.dahsboard_form .form_group .input_group {
+    padding-left: 200px;
+}
+.dahsboard_form .form_group input, 
+.dahsboard_form .form_group select, 
+.dahsboard_form .form_group textarea {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 2em;
+    color: #999999;
+    font-size: 15px;
+    padding: 0 15px;
+    color: #000000;
+}
+.dahsboard_form .form_group textarea{
+    resize: none;
+    height: 150px;
+    padding-top: 15px;
+}
+.dahsboard_form .form_group input[type="file"] {
+    padding: 10px 15px;
+}
+.dahsboard_form .form_group .input_text {
+    margin-top: 5px;
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+}
+.dahsboard_form .form_text h4 {
+    margin: 0;
+    font-size: 20px;
+    color: #f85a40;
+}
+.radio_box.pric_radio label {
+    display: inline-block;
+    width: auto;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+.radio_box.pric_radio label .r_check {
+    width: 20px;
+    height: 20px;
+}
+.radio_box label .r_check:after {
+    width: 12px;
+    height: 12px;
+}
+.radio_box.pric_radio .r_text {
+    font-size: 17px;
+    color: #000;
+}
+.upload_file_dv label {
+    position: relative;
+    margin: 0;
+}
+.upload_file_dv label input[type="file"] {
+    opacity: 0;
+    display: none;
+}
+.upload_file_dv label .upload_text {
+    display: inline-block;
+    text-align: center;
+    height: 41px;
+    line-height: 41px;
+    padding: 0 20px;
+    background: #f85a40;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2em;
+    transition: all ease-in 0.25s;
+    -webkit-transition: all ease-in 0.25s;
+    -moz-transition: all ease-in 0.25s;
+}
+.upload_file_dv label .upload_text:hover {
+    background: #161f2b;
+}
+.upload_file_dv label .upload_text i {
+    margin-right: 5px;
+}
+/*======= App upload css End ==========*/
+/*======= Sidebar css start ==========*/
+.sidebar_toggle {
+    display: none;
+    float: left;
+}
+.dashboard_sidbar {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+.dashboard_sidbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.dashboard_sidbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #0b2636;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-bottom: 1px solid #ccc;
+}
+.dashboard_sidbar ul li a .icons {
+    margin-right: 10px;
+}
+.dashboard_sidbar ul li a:hover {
+    color: #f85a40;
+}
+/*======= Sidebar css End ==========*/
+/*======= content css start ==========*/
+.dash_page_top {
+    display: inline-block;
+    width: 100%;
+}
+.dash_page_top .usr_n_text {
+    display: inline-block;
+}
+.dash_page_top .right_btn{
+    float: right;
+}
+
+.dash_boxes {
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    padding: 0px 20px 20px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 11px 11px 11px -7px rgba(0, 0, 0, 0.3411764705882353);
+    -webkit-box-shadow: 11px 11px 11px -7px rgba(0, 0, 0, 0.3411764705882353);
+    -moz-box-shadow: 11px 11px 11px -7px rgba(0, 0, 0, 0.3411764705882353);
+    border: 1px solid #ccc;
+    margin-top: 60px;
+}
+.dash_text_tp{
+    margin-top: -20px;
+}
+.dash_text_tp .icon_left {
+    display: inline-block;
+    background: #f85a40;
+    color: #fff;
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 36px;
+    border-radius: 5px;
+     box-shadow: 11px 11px 11px -7px rgba(0, 0, 0, 0.3411764705882353);
+    -webkit-box-shadow: 11px 11px 11px -7px rgba(0, 0, 0, 0.3411764705882353);
+    -moz-box-shadow: 11px 11px 11px -7px rgba(0, 0, 0, 0.3411764705882353);
+}
+.dash_text_tp .txt_right {
+    font-weight: 600;
+    color: #000;
+    font-size: 30px;
+    padding: 0 13px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.dash_boxes .dash_text {
+    margin-top: 18px;
+}
+.dash_boxes .dash_text h4 {
+    margin: 0;
+    color: #0b2636;
+    font-size: 20px;
+    font-weight: normal;
+}
+/*======= content css End ==========*/
+/*======= add in app css start ==========*/
+.app_inner_slider img{width: 100%;}
+.info_form .form_group select {
+    width: 100%;
+    height: 45px;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 2em;
+    font-size: 15px;
+    box-shadow: none;
+    background-color: #e2e2e2;
+}
+.new_btn{
+    float: left;
+}
+.purchase_box {
+    display: none;
+    margin: 16px 0 0;
+}
+.app_boxes h4 {
+    text-align: left;
+}
+.app_input input{
+    background-color: #dbdcdd;
+}
+.purchase_box .info_form .form_group {
+    margin-bottom: 0;
+}
+.purchase_box .app_boxes h4 {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+.add_more_form .row {
+    position: relative;
+}
+.more_field_row .remove_btn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    border: none;
+    background: #ff3333;
+    text-align: center;
+    border-radius: 50%;
+}
+.add_more_form .img_path {
+    display: block;
+}
+/*======= add in app css end ==========*/
+/*======= All app css start ==========*/
+.all_apps_wrapper{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.all_app_col {
+    display: inline-block;
+    width: 250px;
+    padding: 0 10px;
+}
+.all_apps_wrapper .recommend_apps{
+    margin-bottom: 20px;
+}
+.app_dwnld_txt i {
+    margin-right: 3px;
+}
+.app_dwnld_txt {
+    color: #000;
+    margin-top: 8px;
+}
+/*======= All app css end ==========*/
+/*======= All app Detail start ==========*/
+.all_app_row {
+    display: inline-block;
+    width: 100%;
+}
+.all_app_row .app_image {
+    float: left;
+    width: 150px;
+}
+.all_app_row .app_detail {
+    padding-left: 170px;
+}
+.all_app_row .app_detail .app_title h5 {
+    font-size: 22px;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+.bottom_install {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+.bottom_install .wish_link {
+    display: inline-block;
+    padding-right: 15px;
+    text-transform: capitalize;
+    color: #161f2b;
+    text-decoration: none;
+}
+.bottom_install .wish_link:hover{
+    color: #f85a40;
+}
+/*======= All app Detail end ==========*/
+/*======= Order management start ==========*/
+.order_row {
+    display: inline-block;
+    width: 100%;
+}
+.order_row a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 11px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    text-transform: capitalize;
+}
+.order_row a span {
+    color: #f85a40;
+    transition: all ease-in 0.3s;
+    -webkit-transition: all ease-in 0.3s;
+    -moz-transition: all ease-in 0.3s;
+}
+.order_row a:hover {
+    background: #f85a40;
+    border-color: #f85a40;
+    color: #fff;
+}
+.order_row a:hover span {
+    color: #fff;
+}
+
+/*======= Order management end ==========*/
+/*======= Order Details css start ==========*/
+.order_detail_box {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.order_box_inner {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 25px;
+    border: 1px solid#ccc;
+    border-radius: 5px;
+}
+.app_name_row >div{
+    display: inline-block;
+}
+.app_name_row .app_icon {
+    display: inline-block;
+    width: 50px;
+}
+.app_name_row .app_name {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #000;
+    padding-left: 7px;
+}
+.order_box_inner .item_purchase {
+    color: #000;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-weight: normal;
+}
+.order_box_inner .item_title {
+    font-size: 15px;
+    padding: 8px 0;
+    text-transform: capitalize;
+    border-bottom: 1px solid #ccc;
+}
+.order_box_inner .item_title .scnd {
+    float: right;
+    color: #000;
+    font-weight: 500;
+}
+.order_box_inner .item_title .email_id {
+  text-transform: lowercase;
+}
+.order_box_inner .bottom_btns {
+    margin-top: 22px;
+}
+/*======= Order Details css end ==========*/
